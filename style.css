@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
+}
+
+.main {
+  max-width: 2560px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.footer {
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-inline: 24px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.col {
+}
+
+.col-25 {
+  width: 25%;
+}
+
+.bg-white {
+  background: white;
+  color: #000;
+}
+
+.bg-black {
+  background: #000;
+  color: white;
+}
+
+.bg-grey {
+  background: #dbdbdb;
+}
+
+.bg-dark {
+  background: #4c4c4c;
+}
+
+.bg-red {
+  background: #ee6352;
+}
+
+.bg-sky {
+  background: #85c7f2;
+}
+
+.bg-blue {
+  background: #2364aa;
+}
+
+.divider {
+  border-top: 1px solid grey;
+}
+
+h2.headline {
+  font-size: 56px;
+  font-weight: 600;
+}
+h3.subhead {
+  font-size: 28px;
+  font-weight: 400;
+}
+h4.headline {
+  font-size: 40px;
+  font-weight: 600;
+}
+h5.subhead {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+/* Navbar */
+
+.navbar {
+}
+
+.nav-links {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Main */
+
+.hero-content {
+  margin-inline: auto;
+}
+
+.cta-links {
+  justify-content: center;
+  gap: 32px;
+}
+
+.cta-links a {
+  color: #06c;
+}
+
+.iphone-15-pro {
+  background: url(img/hero_iphone15pro__i70z9oz3hj2i_medium.jpg) no-repeat
+    center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 592px;
+}
+
+.iphone-15,
+.apple-watch-series-9 {
+  height: 620px;
+}
+
+.collection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.collection-item {
+  height: 632px;
+  background: #000;
+  color: white;
+}
+
+/* Footer */
+
+.ac-gf-sosumi {
+}
+
+.ac-gf-directory {
+}
+
+.ac-gf-directory-column {
+  width: 20%;
+}
+
+.ac-gf-footer {
+}
+
+.ac-gf-footer-legal {
+}
+
+.ac-gf-footer-locale {
+}

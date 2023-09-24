@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apple</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-      <nav>
-        <div>
-          <ul>
+    <header class="header">
+      <nav class="navbar bg-dark">
+        <div class="container bg-grey">
+          <ul class="nav-links flex">
             <li>
               <a href="#">
                 <span
@@ -70,11 +71,11 @@
           </ul>
         </div>
       </nav>
-    </div>
+    </header>
 
-    <main>
-      <section>
-        <div>
+    <main class="main bg-sky">
+      <section class="bg-grey">
+        <div class="text-center">
           <span>
             Save on Mac or iPad with education pricing and get a gift card up to
             $150. Gift card offer ends October 2.
@@ -86,84 +87,85 @@
           </span>
         </div>
       </section>
-      <section>
-        <div>
-          <div>
-            <h2>iPhone 15 Pro</h2>
-            <h3>Titanium. So strong. So light. So Pro.</h3>
-            <div>
+      <section class="hero">
+        <div class="iphone-15-pro bg-black">
+          <div class="hero-content text-center">
+            <h2 class="headline">iPhone 15 Pro</h2>
+            <h3 class="subhead">Titanium. So strong. So light. So Pro.</h3>
+            <div class="cta-links flex">
               <a href="">Learn more</a>
               <a href="">Buy</a>
             </div>
           </div>
         </div>
 
-        <div>
-          <div>
-            <h2>iPhone 15</h2>
-            <h3>New camera. New design. Newphoria.</h3>
-            <div>
+        <div class="iphone-15 bg-white">
+          <div class="hero-content text-center">
+            <h2 class="headline">iPhone 15</h2>
+            <h3 class="subhead">New camera. New design. Newphoria.</h3>
+            <div class="cta-links flex">
               <a href="">Learn more</a>
               <a href="">Buy</a>
             </div>
           </div>
         </div>
 
-        <div>
-          <div>
-            <h2>Apple Watch Series 9</h2>
-            <h3>Smarter. Brighter. Mightier.</h3>
-            <div>
+        <div class="apple-watch-series-9 bg-black">
+          <div class="hero-content text-center">
+            <h2 class="headline">Apple Watch Series 9</h2>
+            <h3 class="subhead">Smarter. Brighter. Mightier.</h3>
+            <div class="cta-links flex">
               <a href="">Learn more</a>
               <a href="">Buy</a>
             </div>
           </div>
         </div>
       </section>
-      <section>
-        <div>
-          <div>
-            <h4>Apple Watch Ultra 2</h4>
-            <h5>Next level adventure.</h5>
-            <div>
+
+      <section class="collection">
+        <div class="collection-item">
+          <div class="hero-content text-center">
+            <h4 class="headline">Apple Watch Ultra 2</h4>
+            <h5 class="subhead">Next level adventure.</h5>
+            <div class="cta-links flex">
               <a href="">Learn more</a>
               <a href="">Buy</a>
             </div>
           </div>
         </div>
 
-        <div>
-          <div>
-            <h4>Carbon Neutral</h4>
-            <h5>A first for Apple&nbsp;Watch. And Apple.</h5>
-            <div>
+        <div class="collection-item">
+          <div class="hero-content text-center">
+            <h4 class="headline">Carbon Neutral</h4>
+            <h5 class="subhead">A first for Apple&nbsp;Watch. And Apple.</h5>
+            <div class="cta-links flex">
               <a href="">Learn more</a>
               <a href="">Watch the film</a>
             </div>
           </div>
         </div>
 
-        <div>
-          <div>
-            <h4>Shop iPhone with us</h4>
-            <h5>
+        <div class="collection-item">
+          <div class="hero-content text-center">
+            <h4 class="headline">Shop iPhone with us</h4>
+            <h5 class="subhead">
               Save with trade-in, connect to your carrier, and transfer your
               data, all&nbsp;right here at Apple.
             </h5>
-            <div>
+            <div class="cta-links flex">
               <a href="">Shop iPhone</a>
             </div>
           </div>
         </div>
 
-        <div>
-          <div>
-            <h4>Apple Trade In</h4>
-            <h5>
+        <div class="collection-item">
+          <div class="hero-content text-center">
+            <h4 class="headline">Apple Trade In</h4>
+            <h5 class="subhead">
               Get $200-$650 in credit when you trade in iPhone&nbsp;11 or
               higher.
             </h5>
-            <div>
+            <div class="cta-links flex">
               <a href="">See what your device is worth</a>
               <sup>
                 <a href="">2</a>
@@ -172,22 +174,24 @@
           </div>
         </div>
 
-        <div>
-          <div>
-            <h4>AirPods Pro</h4>
-            <h5>Adaptive Audio. Now playing.</h5>
-            <div>
+        <div class="collection-item">
+          <div class="hero-content text-center">
+            <h4 class="headline">AirPods Pro</h4>
+            <h5 class="subhead">Adaptive Audio. Now playing.</h5>
+            <div class="cta-links flex">
               <a href="">Learn more</a>
               <a href="">Buy</a>
             </div>
           </div>
         </div>
 
-        <div>
-          <div>
-            <h4>Card</h4>
-            <h5>Get up to 3% Daily&nbsp;Cash back with every purchase.</h5>
-            <div>
+        <div class="collection-item">
+          <div class="hero-content text-center">
+            <h4 class="headline">Card</h4>
+            <h5 class="subhead">
+              Get up to 3% Daily&nbsp;Cash back with every purchase.
+            </h5>
+            <div class="cta-links flex">
               <a href="">Learn more</a>
               <a href="">Apply now</a>
             </div>
@@ -195,9 +199,10 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div>
-        <section>
+
+    <footer class="footer bg-dark">
+      <div class="container bg-grey">
+        <section class="ac-gf-sosumi">
           <ul>
             <li>
               <span
@@ -258,9 +263,10 @@
             </li>
           </ul>
         </section>
-        <nav>
-          <div>
-            <div>
+        <hr class="divider" />
+        <nav class="ac-gf-directory flex w-full">
+          <div class="ac-gf-directory-column">
+            <div class="ac-gf-directory-column-section">
               <h3>Shop and Learn</h3>
               <ul>
                 <li>
@@ -298,7 +304,7 @@
                 </li>
               </ul>
             </div>
-            <div>
+            <div class="ac-gf-directory-column-section">
               <h3>Apple Wallet</h3>
               <ul>
                 <li><a href="">Wallet</a></li>
@@ -309,7 +315,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="ac-gf-directory-column">
             <div>
               <h3>Account</h3>
               <ul>
@@ -334,7 +340,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="ac-gf-directory-column">
             <h3>Apple Store</h3>
             <ul>
               <li><a href="">Find Store</a></li>
@@ -351,7 +357,7 @@
             </ul>
           </div>
 
-          <div>
+          <div class="ac-gf-directory-column">
             <div>
               <h3>For Business</h3>
               <ul>
@@ -387,7 +393,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="ac-gf-directory-column">
             <div>
               <h3>Apple Values</h3>
               <ul>
@@ -415,22 +421,25 @@
             </div>
           </div>
         </nav>
-        <section>
-          <div>
+        <section class="ac-gf-footer">
+          <div class="ac-gf-footer-shop">
             More ways to shop: <a href="">Find an Apple Store</a> or
             <a href="">other retailer</a> near you.
             <span>Or call 1-800-MY-APPLE.</span>
           </div>
-          <div>
-            <div>Copyright © 2023 Apple Inc. All rights reserved.</div>
-            <ul>
+          <hr class="divider" />
+          <div class="ac-gf-footer-legal flex">
+            <div class="ac-gf-footer-legal-copyright">
+              Copyright © 2023 Apple Inc. All rights reserved.
+            </div>
+            <ul class="ac-gf-footer-legal-links flex">
               <li><a href="">Privacy Policy</a></li>
               <li><a href="">Terms of Use</a></li>
               <li><a href="">Sales and Refunds</a></li>
               <li><a href="">Legal</a></li>
               <li><a href="">Site Map</a></li>
             </ul>
-            <div>United States</div>
+            <div class="ac-gf-footer-locale">United States</div>
           </div>
         </section>
       </div>
